@@ -11,6 +11,9 @@
 *.sln.docstates
 *.env
 
+/ros2_ws/build
+/ros2_ws/install
+/log
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -416,3 +419,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Hugging Face token
+openvla/hf_TOKEN

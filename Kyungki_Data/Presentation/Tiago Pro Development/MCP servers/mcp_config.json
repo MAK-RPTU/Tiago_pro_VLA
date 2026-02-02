@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "holland-robot-controller": {
+      "autoApprove": [],
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio",
+      "command": "bash",
+      "args": [
+        "-c",
+        "source /opt/ros/humble/setup.bash && python3 /opt/pal/alum/share/mcp_tiago_bridge/server.py"
+      ],
+      "cwd": "/opt/pal/alum/share/mcp_tiago_bridge"
+    }
+  }
+}

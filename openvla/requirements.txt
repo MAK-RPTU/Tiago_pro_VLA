@@ -1,0 +1,8 @@
+transformers
+accelerate
+huggingface_hub
+safetensors
+pillow
+numpy
+timm>=0.9.10,<1.0.0
+tokenizers==0.22.2
